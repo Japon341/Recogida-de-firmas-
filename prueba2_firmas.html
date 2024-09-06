@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recogida de Firmas - Apoyo a Niños con Autismo</title>
+    <link rel="stylesheet" href="prueba2_firmas.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Apoyo para Niños con Autismo</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="intro">
+            <div class="container">
+                <h2>Únete a nuestra causa</h2>
+                <p>
+                    Cada año, miles de niños son diagnosticados con autismo. ¡Con tu firma, podemos garantizar que tengan acceso a terapias y educación adaptada! Ayúdanos a mejorar sus oportunidades y brindarles el apoyo que merecen.
+                </p>
+                <p>
+                    ¡Juntos, podemos marcar la diferencia! Firma y comparte nuestra causa.
+                </p>
+            </div>
+        </section>
+
+        <section class="form-section">
+            <div class="container">
+                <h3>Firma aquí</h3>
+                <form action="submit_firma.php" method="post">
+                    <label for="nombre">Nombre completo:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="mensaje">Mensaje (opcional):</label>
+                    <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+
+                    <button type="submit">Firmar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Apoyo a Niños con Autismo. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
